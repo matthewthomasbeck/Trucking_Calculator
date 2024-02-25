@@ -53,13 +53,13 @@ public class Trucking { // main class to be used to take user input and then dis
 
         /***** request input *****/
 
-        input(); // call input to request data from the user
+        inputData(); // call input to request data from the user
     }
 
 
-    /********** INPUT FUNCTION **********/
+    /********** INPUT DATA FUNCTION **********/
 
-    private static void input() { // input function to take user input
+    private static void inputData() { // input function to take user input
 
         /***** create dependencies *****/
 
@@ -180,15 +180,85 @@ public class Trucking { // main class to be used to take user input and then dis
             } while (!isValid); // loop so long as isValid is false
         }
 
+        System.out.println(); // print terminating newline
+
         /***** print collected data *****/
 
-        output(miles, firstDay, holidays); // call output to print collected data
+        printTable(miles, firstDay, holidays); // call output to print collected data
     }
 
-    /********** OUTPUT FUNCTION **********/
+    /********** PRINT TABLE FUNCTION **********/
 
-    private static void output(int[] miles, int firstDay, int[] holidays) { // function to print collected data
+    private static void printTable(int[] miles, int firstDay, int[] holidays) { // function to print collected data
 
-        System.out.println(firstDay);
+        /***** create dependencies *****/
+
+        int i, j, k; // dummy looping variables
+        int milesPerWeek; // variable to calculate miles driven per week
+        int milesPerMonth = 0; // variable to calculate miles driven per month
+        int currentDate = 1; // used to keep track of the current date
+        boolean isHoliday; // used to check if current date is a holiday
+
+        /***** print header *****/
+
+        // print header for the calendar
+        System.out.println("Week\tMonday\tTuesday\tWednesday\tThursday\tFriday\tSaturday\tSunday\tTotal/Week");
+
+        /***** loop every week of the month *****/
+
+        currentDate = currentDate - firstDay;
+
+        for (i = 0; i < 5; i++) { // loop for 5 weeks
+
+            System.out.print(String.format("%d\t", i + 1)); // print week number
+
+            /***** loop every day of the week *****/
+
+            milesPerWeek = 0; // reinitialize milesPerWeek
+
+            for (j = 0; j < 7; j++) { // loop for 7 days
+
+                if (currentDate <= 0 || currentDate > 30) { // if current date negative (month has not started yet) or out of range...
+
+                    System.out.print(String.format("\t\t0-0\t")); // print nothing
+
+                } else { // if current date positive (month has started)...
+
+                    isHoliday = false; // initialize as false
+
+                    /***** loop to find holidays *****/
+
+                    for (k = 0; k < holidays.length; k++) { // loop though every holiday in holidays
+
+                        if (currentDate == holidays[k]) { // if current date is a holiday...
+
+                            isHoliday = true; // throw holiday flag
+
+                            break; // stop the process to proceed
+                        }
+                    }
+
+                    if (isHoliday) { // if current date is a holiday...
+
+                        System.out.print(String.format("\t\t%d-0\t", currentDate)); // print current date with no miles
+
+                    } else { // if current date is not a holiday...
+
+                        milesPerWeek += miles[j]; // add miles to miles per week counter
+
+                        // print current date with miles
+                        System.out.print(String.format("\t\t%d-%d\t", currentDate, miles[j]));
+                    }
+                }
+
+                currentDate += 1; // increment currentDate
+            }
+
+            milesPerMonth += milesPerWeek; // add milesPerWeek to milesPerMonth
+
+            System.out.println(String.format("\t\tW%d-%d", i + 1, milesPerWeek)); // print miles per week
+        }
+
+        System.out.println("Total Miles Driven: " + milesPerMonth); // print total miles driven
     }
 }
