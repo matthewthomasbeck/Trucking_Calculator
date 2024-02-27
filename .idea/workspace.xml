@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e1cdd36-271a-4c47-b9be-5e47481ea95a" name="Changes" comment="Added basic table functionality, tried to get everything to print with the correct amount of spaces, but no dice">
+    <list default="true" id="5e1cdd36-271a-4c47-b9be-5e47481ea95a" name="Changes" comment="Small updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trucking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trucking.java" afterDir="false" />
     </list>
@@ -62,6 +62,9 @@
       <workItem from="1708926619284" duration="2000" />
       <workItem from="1709010308063" duration="1160000" />
       <workItem from="1709046626918" duration="6000" />
+      <workItem from="1709051102552" duration="107000" />
+      <workItem from="1709054216691" duration="3774000" />
+      <workItem from="1709066871213" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="created starting files for the project 02/24/2024 14:38">
       <option name="closed" value="true" />
@@ -95,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708836651827</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Small updates">
+      <option name="closed" value="true" />
+      <created>1709051201353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709051201353</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +117,7 @@
     <MESSAGE value="Created starting files for Trucking_Calculator 02/24/2024 14:38" />
     <MESSAGE value="Added input comprehensive input functionality to the process 02/24/2024 20:41" />
     <MESSAGE value="Added basic table functionality, tried to get everything to print with the correct amount of spaces, but no dice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic table functionality, tried to get everything to print with the correct amount of spaces, but no dice" />
+    <MESSAGE value="Small updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small updates" />
   </component>
 </project>

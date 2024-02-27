@@ -204,11 +204,11 @@ public class Trucking { // main class to be used to take user input and then dis
 
         /***** loop every week of the month *****/
 
-        currentDate = currentDate - firstDay;
+        currentDate = currentDate - firstDay; // adjust first day
 
         for (i = 0; i < 5; i++) { // loop for 5 weeks
 
-            System.out.print(String.format("%d\t", i + 1)); // print week number
+            System.out.printf("%d\t", i + 1); // print week number
 
             /***** loop every day of the week *****/
 
@@ -219,7 +219,7 @@ public class Trucking { // main class to be used to take user input and then dis
                 // if current date negative (month has not started yet) or out of range...
                 if (currentDate <= 0 || currentDate > 30) {
 
-                    System.out.print(String.format("\t\t0-0\t")); // print nothing
+                    System.out.print("\t\t0-0\t"); // print nothing
 
                 } else { // if current date positive (month has started)...
 
@@ -239,14 +239,14 @@ public class Trucking { // main class to be used to take user input and then dis
 
                     if (isHoliday) { // if current date is a holiday...
 
-                        System.out.print(String.format("\t\t%d-0\t", currentDate)); // print current date with no miles
+                        System.out.printf("\t\t%d-0\t", currentDate); // print current date with no miles
 
                     } else { // if current date is not a holiday...
 
                         milesPerWeek += miles[j]; // add miles to miles per week counter
 
                         // print current date with miles
-                        System.out.print(String.format("\t\t%d-%d\t", currentDate, miles[j]));
+                        System.out.printf("\t\t%d-%d\t", currentDate, miles[j]);
                     }
                 }
 
@@ -255,7 +255,7 @@ public class Trucking { // main class to be used to take user input and then dis
 
             milesPerMonth += milesPerWeek; // add milesPerWeek to milesPerMonth
 
-            System.out.println(String.format("\t\tW%d-%d", i + 1, milesPerWeek)); // print miles per week
+            System.out.printf("\t\tW%d-%d\n", i + 1, milesPerWeek); // print miles per week
         }
 
         System.out.println("Total Miles Driven: " + milesPerMonth); // print total miles driven
