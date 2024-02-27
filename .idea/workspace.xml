@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e1cdd36-271a-4c47-b9be-5e47481ea95a" name="Changes" comment="Added input comprehensive input functionality to the process 02/24/2024 20:41">
+    <list default="true" id="5e1cdd36-271a-4c47-b9be-5e47481ea95a" name="Changes" comment="Added basic table functionality, tried to get everything to print with the correct amount of spaces, but no dice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trucking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trucking.java" afterDir="false" />
     </list>
@@ -28,21 +28,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Trucking.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Trucking.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/matthewthomasbeck/Library/Mobile Documents/com~apple~CloudDocs/Projects/Programming_I_Projects/Trucking_Calculator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +55,13 @@
       <workItem from="1708803718758" duration="92000" />
       <workItem from="1708805732122" duration="55000" />
       <workItem from="1708806454481" duration="2404000" />
-      <workItem from="1708814795091" duration="18202000" />
+      <workItem from="1708814795091" duration="20058000" />
+      <workItem from="1708886471320" duration="15000" />
+      <workItem from="1708886567454" duration="45000" />
+      <workItem from="1708898328955" duration="1458000" />
+      <workItem from="1708926619284" duration="2000" />
+      <workItem from="1709010308063" duration="1160000" />
+      <workItem from="1709046626918" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="created starting files for the project 02/24/2024 14:38">
       <option name="closed" value="true" />
@@ -80,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708828949715</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added basic table functionality, tried to get everything to print with the correct amount of spaces, but no dice">
+      <option name="closed" value="true" />
+      <created>1708836651827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708836651827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +105,7 @@
     <MESSAGE value="created starting files for the project 02/24/2024 14:38" />
     <MESSAGE value="Created starting files for Trucking_Calculator 02/24/2024 14:38" />
     <MESSAGE value="Added input comprehensive input functionality to the process 02/24/2024 20:41" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added input comprehensive input functionality to the process 02/24/2024 20:41" />
+    <MESSAGE value="Added basic table functionality, tried to get everything to print with the correct amount of spaces, but no dice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic table functionality, tried to get everything to print with the correct amount of spaces, but no dice" />
   </component>
 </project>
