@@ -52,6 +52,9 @@ public class Trucking { // main class to be used to take user input and then dis
         /***** request input *****/
 
         inputData(); // call input to request data from the user
+
+        /***** create output *****/
+        // call method here, redirect to txt or print, makes more sense here
     }
 
 

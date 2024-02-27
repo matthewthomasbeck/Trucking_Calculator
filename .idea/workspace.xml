@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e1cdd36-271a-4c47-b9be-5e47481ea95a" name="Changes" comment="Small updates">
+    <list default="true" id="5e1cdd36-271a-4c47-b9be-5e47481ea95a" name="Changes" comment="removed redundancies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trucking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trucking.java" afterDir="false" />
     </list>
@@ -64,7 +64,7 @@
       <workItem from="1709046626918" duration="6000" />
       <workItem from="1709051102552" duration="107000" />
       <workItem from="1709054216691" duration="3774000" />
-      <workItem from="1709066871213" duration="388000" />
+      <workItem from="1709066871213" duration="1480000" />
     </task>
     <task id="LOCAL-00001" summary="created starting files for the project 02/24/2024 14:38">
       <option name="closed" value="true" />
@@ -106,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709051201353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed redundancies">
+      <option name="closed" value="true" />
+      <created>1709067608123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709067608123</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +126,7 @@
     <MESSAGE value="Added input comprehensive input functionality to the process 02/24/2024 20:41" />
     <MESSAGE value="Added basic table functionality, tried to get everything to print with the correct amount of spaces, but no dice" />
     <MESSAGE value="Small updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small updates" />
+    <MESSAGE value="removed redundancies" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed redundancies" />
   </component>
 </project>
