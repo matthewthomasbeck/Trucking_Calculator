@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e1cdd36-271a-4c47-b9be-5e47481ea95a" name="Changes" comment="plan for method call within main">
+    <list default="true" id="5e1cdd36-271a-4c47-b9be-5e47481ea95a" name="Changes" comment="Made minor changes, added the project guidelines">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,10 @@
       <workItem from="1709051102552" duration="107000" />
       <workItem from="1709054216691" duration="3774000" />
       <workItem from="1709066871213" duration="2792000" />
+      <workItem from="1709089530130" duration="133000" />
+      <workItem from="1709102823926" duration="80000" />
+      <workItem from="1709223140881" duration="133000" />
+      <workItem from="1709230328688" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="created starting files for the project 02/24/2024 14:38">
       <option name="closed" value="true" />
@@ -121,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709068434458</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Made minor changes, added the project guidelines">
+      <option name="closed" value="true" />
+      <created>1709089573188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709089573188</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +147,7 @@
     <MESSAGE value="Small updates" />
     <MESSAGE value="removed redundancies" />
     <MESSAGE value="plan for method call within main" />
-    <option name="LAST_COMMIT_MESSAGE" value="plan for method call within main" />
+    <MESSAGE value="Made minor changes, added the project guidelines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made minor changes, added the project guidelines" />
   </component>
 </project>
